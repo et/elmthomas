@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <%= csrf_meta_tag %>
+  <%= render 'layouts/stylesheets' %>
+</head>
+<body>
+  <div id="header-wrapper">
+    <%= render 'layouts/header' %>
+  </div>
+
+  <div class="container">
+    <section class="round-bottom">
+      <%= yield %>
+    </section>
+  </div>
+
+</body>
+</html>

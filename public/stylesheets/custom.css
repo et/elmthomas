@@ -1,0 +1,102 @@
+/* Overall */
+.container {
+  width: 700px;
+}
+body {
+  background: #1e1e1e;
+}
+
+#header-wrapper {
+  background-color: #434343;
+  border-bottom: 4px #FFF solid;
+}
+
+header {
+  margin: 0 auto;
+  width: 700px;
+  padding: 3em 0 1em 1em;
+}
+
+section {
+  font-size: 150%;
+  padding: 1em;
+  color: #C3C8C8;
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: #818A8F;
+  border: 4px #FFF solid;
+  border-top: none;
+}
+
+/* Links */
+a {
+  color: #C5C3B6;
+}
+
+a:hover {
+  color: #CC6B47;
+}
+
+/* Header & Navigation */
+
+header h1, header h2 {
+  text-transform: lowercase;
+  color: #FFF;
+}
+
+header h1 {
+  font-size: 400%;
+  font-family: Arial, Verdana, sans-serif;
+  float: left;
+  margin-right: 0.4em;
+}
+
+header h2 {
+  padding-top: 0.2em;
+  font-size: 250%;
+  font-style: italic;
+  color: #6A6A6A;
+}
+
+nav {
+  clear: left;
+  white-space: nowrap;
+  font-size: 90%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 0.7em;
+}
+
+nav ul li a {
+  padding: 0.6em 0.9em;
+  background-color: #996A6A;
+  border: 1px #575C5F solid;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFF;
+}
+
+nav ul li a:hover, nav ul li a#current {
+  text-decoration: none;
+  background-color: #983D3A;
+  border: 1px #D45951 solid;
+  color: #FFF;
+}
+
+/* Rounding */
+.round-bottom {
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
