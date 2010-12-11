@@ -3,7 +3,6 @@ Elmthomas::Application.routes.draw do
 
   match '/education', :to => 'pages#education'
   match '/projects',  :to => 'pages#projects'
-  match '/snippets',  :to => 'pages#snippets'
   match '/running',   :to => 'pages#running'
   match '/contact',   :to => 'pages#contact'
 end
