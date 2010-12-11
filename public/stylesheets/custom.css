@@ -12,10 +12,11 @@ img {
 }
 
 img.right {
-  float:right;
+  float: right;
 }
 img.left {
-  float:left;
+  float: left;
+  margin-right: 2px;
 }
 
 #header-wrapper {
@@ -39,7 +40,7 @@ section {
   border-top: none;
 }
 
-section h1 {
+section h2 {
   color: #2B2B2B;
 }
 
