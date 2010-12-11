@@ -16,11 +16,6 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Projects")
   end
 
-  it "should have a Snippets page at '/snippets'" do
-    get '/snippets'
-    response.should have_selector('title', :content => "Snippets")
-  end
-
   it "should have a Running page at '/running'" do
     get '/running'
     response.should have_selector('title', :content => "Running")
