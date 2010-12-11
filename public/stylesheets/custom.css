@@ -6,6 +6,18 @@ body {
   background: #1e1e1e;
 }
 
+img {
+  padding: 1px;
+  border: 1px solid #021a40;
+}
+
+img.right {
+  float:right;
+}
+img.left {
+  float:left;
+}
+
 #header-wrapper {
   background-color: #434343;
   border-bottom: 4px #FFF solid;
@@ -25,6 +37,10 @@ section {
   background-color: #818A8F;
   border: 4px #FFF solid;
   border-top: none;
+}
+
+section h1 {
+  color: #2B2B2B;
 }
 
 /* Links */
